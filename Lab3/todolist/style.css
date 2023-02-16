@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 36px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+}
+.image-container {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.left-image {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f1/Matterhorn_from_Zermatt.jpg');
+    background-size: cover;
+}
+
+.right-image {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Albula_Alps.jpg/1200px-Albula_Alps.jpg');
+    background-size: cover;
+}
+li button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 15px;
+    padding: 10px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: right;
+    margin-top: 7px;
+}
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+input[type="checkbox"] {
+    margin-top: 8px;
+}
+#task-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+li button:hover{
+    background-color: #dc143c;
+}
+.completed {
+    text-decoration: line-through;
+}
