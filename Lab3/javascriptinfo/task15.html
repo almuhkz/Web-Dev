@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LAB3 Task15</title>
+</head>
+<body>
+<script>
+  let login = prompt("Who's there?", '');
+  if (login === 'Admin') {
+    let pass = prompt('Password?', '');
+    if (pass === 'TheMaster') {
+      alert('Welcome!');
+    } else if (pass === '' || pass === null) {
+      alert('Canceled');
+    } else {
+      alert('Wrong password');
+    }
+  } else if (login === '' || login === null) {
+    alert( 'Canceled' );
+  } else {
+    alert( "I don't know you" );
+  }
+</script>
+</body>
+</html>
