@@ -1,0 +1,97 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "Acme Inc.",
+      "description": "We're a company that specializes in making things.",
+      "city": "New York",
+      "address": "123 Main St."
+    },
+    {
+      "id": 2,
+      "name": "Globex Corporation",
+      "description": "We do everything.",
+      "city": "Springfield",
+      "address": "742 Evergreen Terrace"
+    },
+    {
+      "id": 3,
+      "name": "Initech",
+      "description": "We make software.",
+      "city": "Austin",
+      "address": "1234 Main St."
+    }
+  ],
+  "vacancies": [
+    {
+      "id": 1,
+      "name": "Software Engineer",
+      "description": "We need someone who can write code.",
+      "salary": 100000.00,
+      "company_id": 3
+    },
+    {
+      "id": 2,
+      "name": "Product Manager",
+      "description": "We need someone who can manage products.",
+      "salary": 90000.00,
+      "company_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Marketing Specialist",
+      "description": "We need someone who can market our products.",
+      "salary": 80000.00,
+      "company_id": 2
+    },
+    {
+      "id": 4,
+      "name": "Data Analyst",
+      "description": "We need someone who can analyze data.",
+      "salary": 75000.00,
+      "company_id": 1
+    },
+    {
+      "id": 5,
+      "name": "Graphic Designer",
+      "description": "We need someone who can design graphics.",
+      "salary": 70000.00,
+      "company_id": 2
+    },
+    {
+      "id": 6,
+      "name": "Sales Manager",
+      "description": "We need someone who can manage sales.",
+      "salary": 80000.00,
+      "company_id": 3
+    },
+    {
+      "id": 7,
+      "name": "Frontend Developer",
+      "description": "We need someone who can develop frontend.",
+      "salary": 85000.00,
+      "company_id": 2
+    },
+    {
+      "id": 8,
+      "name": "Backend Developer",
+      "description": "We need someone who can develop backend.",
+      "salary": 90000.00,
+      "company_id": 1
+    },
+    {
+      "id": 9,
+      "name": "Social Media Manager",
+      "description": "We need someone who can manage social media.",
+      "salary": 75000.00,
+      "company_id": 3
+    },
+    {
+      "id": 10,
+      "name": "Content Writer",
+      "description": "We need someone who can write content.",
+      "salary": 65000.00,
+      "company_id": 2
+    }
+  ]
+}
